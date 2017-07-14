@@ -36,9 +36,7 @@ class ColorsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let cell = tableView.dequeueReusableCell(withIdentifier: "colorCell", for: indexPath)
         
         cell.textLabel?.text = colors[indexPath.row]
-        
-//        cell.backgroundColor = UIColor.indexPath
-        
+                
         return cell
     }
     
